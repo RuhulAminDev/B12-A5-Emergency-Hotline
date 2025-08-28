@@ -3,6 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* google font */
+.hind-madurai{
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 700;
+  /* font-style: normal; */
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal; */
+}
+
 /* navbar design */
 .navbar{
     display: flex;
@@ -47,4 +62,26 @@
     padding: 12px 36px;
     border-radius: 50px;
     cursor: pointer;
+}
+
+/* hero section */
+.hero{
+    background: linear-gradient(90deg, #013223 0%, #006747 50%, #013223 100%);
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+.hero-logo{
+    width: 92px;
+    margin-bottom: 11px;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
 }
