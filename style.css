@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar design */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 25px 60px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-left h2{
+    font-size: 20px;
+    color: #006747;
+    font-weight: bold;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.heart, .coin{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: rgba(65, 255, 107, 0.1);
+    font-weight: bold;
+}
+.copy button{
+    background-color: #00A63E;
+    color: white;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 50px;
+    cursor: pointer;
+}
