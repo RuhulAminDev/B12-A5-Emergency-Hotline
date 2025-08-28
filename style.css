@@ -139,7 +139,7 @@
     background-color: white;
     padding: 32px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgb(255,227,226,1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -203,11 +203,39 @@
     justify-content: space-between;
     gap: 30px;
     align-items: center;
+    margin-bottom: 16px;
 }
 .history-header h2{
     font-size: 15px;
     padding: 12px;
 
+}
+.history-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    background-color: #FAFAFA;
+    padding: 24px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.call-info h3{
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111111;
+}
+.call-info p{
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #5C5C5C;
+}
+.call-meta{
+    text-align: right;
+    font-size: 18px;
+    color: #111111;
+    white-space: nowrap;
 }
 .clear-btn{
     background: #00A63E;
@@ -270,6 +298,12 @@
         max-width: 100%;
         margin-bottom: 15px;
         order: -1;
+    }
+    .call-info h3{
+        font-size: 13px;
+    }
+    .call-meta{
+        font-size: 14px;
     }
     .card-container{
         grid-template-columns: 1fr;

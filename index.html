@@ -18,10 +18,10 @@
       </div>
 
       <div class="nav-right">
-        <div class="heart">0<span>❤️</span></div>
-        <div class="coin">100<span>🪙</span></div>
+        <div class="heart"><span id="heart-count">0</span><span class="heart-icon">❤️</span></div>
+        <div class="coin"><span>🪙 <span id="coin-balance">100</span></span></div>
         <div class="copy">
-          <button>Copy</button>
+          <button><span id="copy-count">0</span> Copy</button>
         </div>
       </div>
     </nav>
@@ -161,13 +161,18 @@
                 </div>
             </div>
         </section>
+
         <aside class="history">
             <div class="history-header">
                 <h2 class="title1"><i class="fa-solid fa-clock-rotate-left"></i>  Call History</h2>
-                <button class="clear-btn">Clear</button>
+                <button class="clear-btn" id="clear-btn">Clear</button>
+            </div>
+
+            <div class="card-history-container" id="card-history-container">
+                <!-- add js -->
             </div>
         </aside>
     </main>
-
+    <script src="script.js"></script>
   </body>
 </html>
